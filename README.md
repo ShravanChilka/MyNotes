@@ -1,5 +1,5 @@
 ### MyNotes
-This project was implemented in order to learn and understand how CRUD Operation in Room Database works \
+This project was implemented in order to learn and understand how CRUD Operation (Create, read, update and delete) in Room Database works \
 The Room library provides an abstraction layer over SQLite \
 While working on this project i decided to implement **MVVM architecture** in this project \
 \
@@ -28,7 +28,8 @@ While working on this project i decided to implement **MVVM architecture** in th
 \
 **LiveData & MutableLiveData** - In LiveData we can only observe the data and cannot set the data MutableLiveData is mutable and is a subclass of LiveData \
 In MutableLiveData we can observe and set the values using postValue() and setValue() methods \
-<br>
+\
+![Capture](https://user-images.githubusercontent.com/107514813/177787158-488299a4-c133-418d-95a1-3428898aad06.PNG)
 
 **ScreenShots : **
 
