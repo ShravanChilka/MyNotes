@@ -31,7 +31,7 @@ In MutableLiveData we can observe and set the values using postValue() and setVa
 \
 ![Capture](https://user-images.githubusercontent.com/107514813/177787158-488299a4-c133-418d-95a1-3428898aad06.PNG)
 
-**ScreenShots : **
+**ScreenShots :** 
 
 
 https://user-images.githubusercontent.com/107514813/177778871-e0c33c9e-3480-4104-9690-0baa2413a1b7.mp4
