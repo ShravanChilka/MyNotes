@@ -4,9 +4,11 @@ The Room library provides an abstraction layer over SQLite \
 While working on this project i decided to implement **MVVM architecture** in this project \
 \
 **The Model-View-ViewModel (MVVM)** pattern helps to cleanly separate the back-end logic of an application from its user interface (UI) \
-
 \
-**The topics that i learnt from this project are :** \
+![mvvm1](https://user-images.githubusercontent.com/107514813/177787761-f30c04a2-4b92-4f1c-87b1-dd3b39f31377.png)
+\
+\
+**The Topics that i learnt from this project are :** \
 \
 **Room** - it makes data storing and managing easier over SQLite  \
 \
@@ -22,12 +24,13 @@ While working on this project i decided to implement **MVVM architecture** in th
 \
 **Handler** - allows you to send and process message  \
 \
-**ListAdapter** - ListAdapter is a subclass of the normal RecyclerView adapter, that implements AsyncListDiffer to calculate the differences between the old data set and the new one we get passed in the LiveData’s onChanged method, so we don’t have to rely on notifyDataSetChanged to update our adapter 
+**ListAdapter** - ListAdapter is a subclass of the normal RecyclerView adapter, that implements AsyncListDiffer to calculate the differences between the old data set and the new one we get passed in the LiveData’s onChanged method, so we don’t have to rely on notifyDataSetChanged to update our adapter \
 \
-**LiveData & MutableLiveData** - In LiveData we can only observe the data and cannot set the data \
-MutableLiveData is mutable and is a subclass of LiveData \
+**LiveData & MutableLiveData** - In LiveData we can only observe the data and cannot set the data MutableLiveData is mutable and is a subclass of LiveData \
 In MutableLiveData we can observe and set the values using postValue() and setValue() methods \
+<br>
 
+**ScreenShots : **
 
 
 https://user-images.githubusercontent.com/107514813/177778871-e0c33c9e-3480-4104-9690-0baa2413a1b7.mp4
